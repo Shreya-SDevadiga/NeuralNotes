@@ -31,9 +31,9 @@ cd client
 npm install
 npm start
 
-## Environment Variables
+<!-- ## Environment Variables
 Create a `.env` file in the `/server` folder:
 MONGO_URI=your_mongodb_uri_here
 JWT_SECRET=your_secret_key_here
 GROQ_API_KEY=your_groq_api_key_here
-PORT=5000
+PORT=5000 -->
