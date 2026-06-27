@@ -1,6 +1,3 @@
-# NeuralNotes
-AI-powered note-taking app for students using React, Node.js, and Groq AI
-
 # NeuralNotes 🧠
 
 An AI-powered note-taking app for students. Upload lectures, generate notes, create flashcards, and visualize concepts.
@@ -22,12 +19,11 @@ An AI-powered note-taking app for students. Upload lectures, generate notes, cre
 ## Getting Started
 
 ### 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/NeuralNotes.git
+git clone https://github.com/Shreya-SDevadiga/NeuralNotes.git
 
 ### 2. Setup Server
 cd server
 npm install
-# Add your .env file with MONGO_URI, JWT_SECRET, GROQ_API_KEY
 node index.js
 
 ### 3. Setup Client
@@ -37,6 +33,7 @@ npm start
 
 ## Environment Variables
 Create a `.env` file in the `/server` folder:
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_secret_key
-GROQ_API_KEY=your_groq_key
+MONGO_URI=your_mongodb_uri_here
+JWT_SECRET=your_secret_key_here
+GROQ_API_KEY=your_groq_api_key_here
+PORT=5000
